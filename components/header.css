@@ -1,0 +1,73 @@
+header {
+  display: flex;
+  background-color: #eeeded;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .left h2 {
+  font-weight: bolder;
+  background-color: #4682a9;
+  color: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 10px 16px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+header .medium {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+header .medium input {
+  outline: none;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+}
+
+header .medium .search {
+  color: #461959;
+  font-size: 20px;
+}
+header .right nav ul {
+  display: flex;
+  column-gap: 10px;
+}
+header .right nav ul li a {
+  font-size: 13px;
+  font-weight: 500;
+  color: #000;
+}
+
+header .right nav ul li .basket {
+  color: #0d1282;
+  font-size: 18px;
+}
+
+header .right nav ul .relative {
+  position: relative;
+}
+header .right nav ul li .absolute {
+  position: absolute;
+  font-size: 12px;
+  font-weight: bold;
+  color: #d71313;
+  left: 17px;
+  bottom: 13px;
+}
+header .right nav ul li a:hover {
+  color: #4e4feb;
+  transition: 0.7s all;
+}
+
+.account {
+  font-size: 18px;
+  margin-left: 10px;
+  color: #0d1282;
+}
