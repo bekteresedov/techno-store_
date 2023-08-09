@@ -1,0 +1,28 @@
+footer {
+  background-color: #f6f1f1;
+  margin-top: 20px;
+}
+footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+footer .footer-container h2 {
+  color: #2d2727;
+  font-size: 15px;
+  font-weight: 500;
+}
+footer .footer-container ul li {
+  margin-top: 3px;
+}
+footer .footer-container ul li a {
+  color: #000;
+  font-size: 13px;
+}
+footer .footer-container ul li a:hover {
+  color: rgb(212, 196, 14);
+  transition: 0.8s ease-in;
+}
